@@ -46,7 +46,7 @@
                             echo "</div> </form> </p>";
                             echo "</div>";
                             $item = isset($_POST['item']) ? $_POST['item'] : '';
-                            $search = isset($_POST['search']) ? $_POST['search'] : '';
+
                             $isSearch = false;
                             if(($item!="") && $search!=""){ 
                                 echo "<br><ul class=\"featureList\">";
